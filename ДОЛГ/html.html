@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Простой сайт с картинками и загрузкой</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <h1>Простой сайт с картинками и загрузкой</h1>
+
+  <p>Вот несколько картинок:</p>
+
+  <div class="gallery">
+    <img src="1.jpg" alt="Изображение 1">
+    <img src="2.jpg" alt="Изображение 2">
+    <img src="3.jpg" alt="Изображение 3">
+  </div>
+
+  <p>Вы можете также загрузить файлы на этот сайт:</p>
+
+  <form id="upload-form" action="upload.php" method="post" enctype="multipart/form-data">
+    <input type="file" name="file">
+    <input type="submit" value="Загрузить">
+  </form>
+
+  <script src="script.js"></script>
+</body>
+</html>
